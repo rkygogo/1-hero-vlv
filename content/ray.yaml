@@ -36,7 +36,7 @@ inbounds:
 - port: 61081
   protocol: shadowsocks
   settings:
-    password: 01c5df7b-b98b-49a8-9382-6ed4137600bd
+    password: "01c5df7b-b98b-49a8-9382-6ed4137600bd"
     method: chacha20-ietf-poly1305
     ivcheck: true
   streamSettings:
@@ -52,7 +52,7 @@ inbounds:
   protocol: trojan
   settings:
     clients:
-    - password: 01c5df7b-b98b-49a8-9382-6ed4137600bd
+    - password: "01c5df7b-b98b-49a8-9382-6ed4137600bd"
   streamSettings:
     network: ws
     wsSettings:
@@ -67,8 +67,8 @@ inbounds:
   settings:
     auth: password
     accounts:
-    - user: 01c5df7b-b98b-49a8-9382-6ed4137600bd
-      pass: 01c5df7b-b98b-49a8-9382-6ed4137600bd
+    - user: "01c5df7b-b98b-49a8-9382-6ed4137600bd"
+      pass: "01c5df7b-b98b-49a8-9382-6ed4137600bd"
   streamSettings:
     network: ws
     wsSettings:
