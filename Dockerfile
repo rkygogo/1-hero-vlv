@@ -7,8 +7,8 @@ RUN apk add --no-cache curl runit caddy jq \
     && /workdir/install.sh \
     && ln -s /workdir/service/* /etc/service/
 
-ENV PORT=61079
+ENV PORT=80
 
-EXPOSE 61079
+EXPOSE 80
 
 ENTRYPOINT ["runsvdir", "-P", "/etc/service"]
